@@ -1,0 +1,72 @@
+@media screen  and (max-width:650px){
+    .category-card{
+        justify-content: left;
+    }
+    .category-item {
+        width: 75px;
+        height: 12vh;
+    }
+}
+
+@media screen  and (max-width:1010px){
+    .search input{
+        width: 20vw;
+    }
+    nav a img{
+        width: 8vw;
+    }
+    #more{
+        right: -34vw;
+    }
+}
+@media screen  and (max-width:1080px){
+    .card{
+        justify-content:left ;
+    }
+}
+@media screen  and (max-width:540px){
+    .category-item{
+        height: 60px;
+        margin: 0px 4px;
+    }
+}
+
+@media screen  and (max-width:760px){
+   header{
+    height:100px;
+   }
+    #big{
+    display: none;
+   }
+   #small{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+   }
+   #small div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+   #small input{
+    width: 80vw;
+   }
+   .left{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+   }
+   .right{
+    position: absolute;
+    right: 0px;
+   }
+   #small button{
+    background-color: #2874f0;
+    color: white;
+    width :25px;
+    border: none;
+    cursor: pointer;
+    transform: rotate(90deg);
+   }
+}

@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    height: 60px;
+    background-color: #2874f0;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+
+#small{
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav img {
+    width: 10vh;
+    min-width: 70px;
+}
+
+nav a,nav p {
+    height: 29px;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+    margin-left: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+
+}
+
+.search {
+    margin: 11px 0px;
+}
+
+.search input {
+    margin: 2px 16px;
+    width: 35vw;
+    height: 32px;
+    padding-left: 8px;
+
+}
+
+ul li {
+    text-decoration: none;
+}
+
+#more {
+    display: none;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: 57px;
+    height: 166px;
+    right: -430px;
+    border: 2px solid black;
+}
+
+#more ul li {
+    margin: 10px;
+    list-style: none;
+}
+#more ul li a{
+    color: black;
+}
+
+.category-card{
+    display: flex;
+    justify-content:space-evenly;
+    overflow: scroll;
+}
+
+
+.category-item{
+    display:flex;
+    flex-direction: column;
+}
+
+.category-item img{
+    width: 6vw;
+    height: 12vh;
+}
+
+.slider{
+    background-color:  rgb(243, 241, 238);
+    width: 76vw;
+    margin: 18px auto;
+    height: 303px;
+    border-radius: 10px;
+overflow: hidden;
+  }
+.slider img{
+    background-color:  rgb(243, 241, 238);
+    width: 76vw;
+    height: 303px;
+  }
+
+.card-container{
+    display: flex; 
+    flex-direction:column;
+    width:85vw;
+    margin:25px auto;
+}
+
+.card{
+    display: flex;
+    width: 85vw;
+    margin: auto;
+    justify-content: space-around;
+    overflow: scroll;
+}
+.item{
+    display:flex;
+    flex-direction: column;
+    
+}
+.item img{
+    width: 160px;
+    height: 160px;
+}
+.item p{
+    margin: 6px auto;
+}
+footer {
+    color: white;
+    background-color:black ;
+    text-align: center;
+    height: 30px;
+    padding-top:9px ;
+}
+
+.desc{
+    text-transform: uppercase;
+}
+
+div.gray{
+    margin: 16px 34px;
+
+}
+
+.footer-container{
+    overflow: scroll;
+    background-color: black;
+    color: gray;
+    display: flex;
+    justify-content:flex-start;
+
+    
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    min-width: 140px;
+    
+}
+
+.footer-col a{
+    color: white;
+}
+.footer-col a,.footer-col p{
+    margin: 4px 0px;
+}
