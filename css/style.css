@@ -67,11 +67,11 @@ ul li {
     display: none;
     background-color: white;
     color: black;
-    position: relative;
-    top: 57px;
     height: 166px;
-    right: -430px;
     border: 2px solid black;
+    position: absolute;
+    top: 60px;
+    right: 11vw;
 }
 
 #more ul li {
@@ -161,7 +161,7 @@ div.gray{
     background-color: black;
     color: gray;
     display: flex;
-    justify-content:flex-start;
+    justify-content:space-around;
 
     
 }

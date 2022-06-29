@@ -1,3 +1,4 @@
+more.style.display="none"
 displayMore.addEventListener('mouseover',()=>{
     more.style.display="inline-block"
   })
